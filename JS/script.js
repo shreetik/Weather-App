@@ -58,7 +58,7 @@ function showData(api) {
       if (id == 800 && icon == "01d") {
         wicon.src = "/img/day.svg";
       } else if (id == 800 && icon == "01n") {
-        wicon.src = "/img/night.svg";
+        wicon.src = "../img/night.svg";
       } else if (id == 500) {
         wicon.src = "/img/rainy-1.svg";
       } else if (id == 501) {
@@ -96,7 +96,7 @@ function showData(api) {
       } else if (id >= 300 && id <= 321) {
         wicon.src = "/img/drizzle.svg";
       } else if (id == 701) {
-        wicon.src = "/img/mist.svg";
+        wicon.src = "../img/mist.svg";
       } else if (id == 781) {
         wicon.src = "/img/tornado.svg";
       } else if (id == 711) {
