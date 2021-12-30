@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Nanum+Gothic&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Yuji+Hentaigana+Akebono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: cornsilk; */
+  background-image: url(/img/—Pngtree—autumn\ leaves\ background\ flat\ design_1266003.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outerbox {
+  width: 17rem;
+  height: 26rem;
+  /* background-color: rgb(9, 39, 39); */
+  background-image: url(/img/Live-Background.svg);
+  background-position-y: -5rem;
+  display: flex;
+  flex-direction: column;
+  /* z-index: -10; */
+}
+.search {
+  width: 100%;
+  height: 5rem;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+}
+.outertext {
+  width: 12rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#txtsearch {
+  width: 149px;
+  height: 20px;
+  margin-left: 10px;
+  border: none;
+  background: none;
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+#txtsearch:focus {
+  outline: none;
+}
+#se {
+  width: 25px;
+  height: 25px;
+  margin-right: 3px;
+  background-color: #00a8ff;
+  border-radius: 50%;
+  padding: 4.5px;
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: brown; */
+  background-image: url(/img/Cool\ Sky.jpg);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 100;
+  overflow: hidden;
+  box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 2px 3px 38px -7px rgba(0, 0, 0, 0.88);
+}
+.location {
+  width: 100%;
+  height: 2.4rem;
+  /* background-color: chartreuse; */
+  display: flex;
+}
+.loc {
+  width: 100%;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(40, 116, 112); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  width: 99px;
+  height: 17px;
+  /* background-color: blueviolet; */
+  font-size: 10px;
+  padding: 3px;
+  font-weight: bold;
+}
+.fas {
+  margin-right: 3px;
+  font-size: 12px;
+}
+.icon {
+  width: 100%;
+  height: 8rem;
+  /* background-color: cadetblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wicon {
+  width: 10rem;
+  height: 10rem;
+  z-index: 100;
+}
+.weather {
+  width: 100%;
+  height: 2rem;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#feel-weather {
+  width: 99px;
+  height: 17px;
+  /* background-color: blueviolet; */
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp {
+  width: 100%;
+  height: 6.5rem;
+  /* background-color: coral; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#temp-feel {
+  width: 7rem;
+  height: 5rem;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#temp-value {
+  font-size: 3rem;
+}
+#temp-icon {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.last {
+  width: 100%;
+  height: 3rem;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+}
+.wind {
+  width: 100%;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.humidity {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con-humidity {
+  width: 3rem;
+  height: 2rem;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#unit {
+  font-size: 0.7rem;
+  /* background-color: chocolate; */
+  margin-right: 4px;
+}
