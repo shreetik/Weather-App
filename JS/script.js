@@ -56,51 +56,51 @@ function showData(api) {
       const { speed } = data.wind;
       console.log(id, icon);
       if (id == 800 && icon == "01d") {
-        wicon.src = "/img/day.svg";
+        wicon.src = "day.svg";
       } else if (id == 800 && icon == "01n") {
-        wicon.src = "../img/night.svg";
+        wicon.src = "night.svg";
       } else if (id == 500) {
-        wicon.src = "/img/rainy-1.svg";
+        wicon.src = "rainy-1.svg";
       } else if (id == 501) {
-        wicon.src = "/img/rainy-2.svg";
+        wicon.src = "rainy-2.svg";
       } else if (id == 503 || id == 504) {
-        wicon.src = "/img/rainy-7.svg";
+        wicon.src = "rainy-7.svg";
       } else if (id == 502 || id == 522) {
-        wicon.src = "/img/rainy-6.svg";
+        wicon.src = "rainy-6.svg";
       } else if (id == 520) {
-        wicon.src = "/img/rainy-5.svg";
+        wicon.src = "rainy-5.svg";
       } else if (id == 522 || id == 521 || id == 531) {
-        wicon.src = "/img/rainy-1.svg";
+        wicon.src = "rainy-1.svg";
       } else if (id == 511) {
-        wicon.src = "/img/snowy-1.svg";
+        wicon.src = "snowy-1.svg";
       } else if (id >= 200 && id <= 232) {
-        wicon.src = "/img/thunder.svg";
+        wicon.src = "thunder.svg";
       } else if (id == 801 && icon == "02d") {
-        wicon.src = "/img/cloudy-day-1.svg";
+        wicon.src = "cloudy-day-1.svg";
       } else if (id == 801 && icon == "02n") {
-        wicon.src = "/img/cloudy-night-1.svg";
+        wicon.src = "cloudy-night-1.svg";
       } else if (id == 802 && icon == "03d") {
-        wicon.src = "/img/cloudy-day-2.svg";
+        wicon.src = "cloudy-day-2.svg";
       } else if (id == 802 && icon == "03n") {
-        wicon.src = "/img/cloudy-night-2.svg";
+        wicon.src = "cloudy-night-2.svg";
       } else if (id == 803 || (id == 804 && icon == "04d")) {
-        wicon.src = "/img/cloudy-day-3.svg";
+        wicon.src = "cloudy-day-3.svg";
       } else if (id == 803 || (id == 804 && icon == "04n")) {
-        wicon.src = "/img/cloudy-night-3.svg";
+        wicon.src = "cloudy-night-3.svg";
       } else if (id >= 600 && id <= 622) {
-        wicon.src = "/img/snowy-2.svg";
+        wicon.src = "snowy-2.svg";
       } else if (id == 721) {
-        wicon.src = "/img/haze.svg";
+        wicon.src = "haze.svg";
       } else if (id == 741) {
-        wicon.src = "/img/fog.svg";
+        wicon.src = "fog.svg";
       } else if (id >= 300 && id <= 321) {
-        wicon.src = "/img/drizzle.svg";
+        wicon.src = "drizzle.svg";
       } else if (id == 701) {
-        wicon.src = "../img/mist.svg";
+        wicon.src = "mist.svg";
       } else if (id == 781) {
-        wicon.src = "/img/tornado.svg";
+        wicon.src = "tornado.svg";
       } else if (id == 711) {
-        wicon.src = "/img/smoke.svg";
+        wicon.src = "smoke.svg";
       }
 
       console.log(id, icon);
