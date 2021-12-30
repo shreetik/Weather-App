@@ -51,7 +51,7 @@ function showData(api) {
     .then((data) => {
       const { name } = data;
       const { temp } = data.main;
-      const { id, icon, main } = data.weather[0];
+      const { id, icon, description } = data.weather[0];
       const { humidity } = data.main;
       const { speed } = data.wind;
       console.log(id, icon);
@@ -105,7 +105,7 @@ function showData(api) {
 
       console.log(id, icon);
       loc.innerText = name;
-      feelWeather.innerText = main;
+      feelWeather.innerText = description;
       tempValue.innerText = Math.round(temp - 273);
       humidityValue.innerText = humidity;
       windSpeed.innerText = Math.round(speed * 3.6);
