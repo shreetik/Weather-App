@@ -11,8 +11,6 @@ let tempConvert = document.getElementById("temp-feel");
 
 let humidityValue = document.getElementById("humidity");
 let windSpeed = document.getElementById("wind");
-var pp = tempIcon.innerText;
-console.log(pp);
 
 let today = new Date();
 date.innerText = today.toLocaleDateString("en-US");
