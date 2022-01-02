@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
       lat = position.coords.latitude;
       lon = position.coords.longitude;
 
-      const api = `https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=05444771df912d8bd08a70cb2605e17f`;
+      const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=05444771df912d8bd08a70cb2605e17f`;
       showData(api);
     });
   }
@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
 
 searchIcon.addEventListener("click", () => {
   let cityName = search.value;
-  const api = `https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=05444771df912d8bd08a70cb2605e17f`;
+  const api = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=05444771df912d8bd08a70cb2605e17f`;
 
   if (cityName) {
     showData(api);
